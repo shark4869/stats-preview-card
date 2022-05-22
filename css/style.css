@@ -8,7 +8,6 @@
     --main-paragraph: hsla(0, 0%, 100%, 0.75);
     --stat-headings: hsla(0, 0%, 100%, 0.6);
 }
-
 *,
 *::before,
 *::after {
@@ -32,8 +31,7 @@ html {
     display: flex;
     background-color: var(--card-background);
     border-radius: 5px;
-    overflow: hidden;
-    
+    overflow: hidden; 
 }
 .card__wrap-info {
     flex: 1;
@@ -42,9 +40,7 @@ html {
 .card__info {
     width: 75%;
     margin: 13% auto 0 auto;
-  
 }
-
 .card__heading {
 
     font-size: 2.5rem;
@@ -52,7 +48,6 @@ html {
     line-height: 3.2rem;
     font-weight: 700;
 }
-
 .card__heading-salient {
     color: var(--accent);
 }
@@ -61,20 +56,14 @@ html {
     font-size: 1.2rem;
     line-height: 2.4rem;
     margin-top: 20px;
-    color: var(--main-paragraph);
-    
+    color: var(--main-paragraph); 
 }
-
 .card__stats {
     width: 85%;
     margin-top: 43px;
     display: flex;
     justify-content: space-between;
     text-transform: uppercase;
-}
-
-.card__stats-quantity {
-
 }
 .card__stats-num {
     display: block;
@@ -86,8 +75,7 @@ html {
     color: var(--stat-headings);
     font-size: 1.1rem;
     display: block;
-    margin: 8px 0 30px 0;
-    
+    margin: 8px 0 30px 0;  
 }
 .card__img {
     flex: 1;
@@ -101,17 +89,6 @@ html {
     background-blend-mode: multiply;
     z-index: 1;
 }
-.attribution {
-   
-    font-size: 11px;
-    text-align: center;
-    color: var(--main-heading-stats);
-    padding-bottom: 10px;
-  }
-  
-  .attribution a {
-    color: hsl(228, 45%, 44%);
-  }
 @media (max-width: 700px) {
     .card {
         margin: 50px 0 20px 0;
@@ -126,11 +103,9 @@ html {
         width: 100%;
         margin-top: 15px;
     }
-    
     .card__stats {
         margin-top: 30px;
         width: 100%;
         flex-direction: column;
     }
-    
 }
